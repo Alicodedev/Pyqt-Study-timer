@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>506</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="SaveButton">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(66, 91, 255, 50);
+border-radius: 15;</string>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Work">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>270</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 15pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(66, 91, 255, 40);
+border-radius: 15;</string>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="Clock">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>40</y>
+     <width>241</width>
+     <height>89</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(157, 188, 199, 95);
+border-radius: 10;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="Background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>461</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(245, 244, 224, 255), stop:1 rgba(245, 244, 234, 255));
+
+border-radius: 30px
+</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(255, 65, 55, 255), stop:1 rgba(255, 1, 63, 255));
+
+
+border-radius : 20; border : 2px solid black
+font 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Apple</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>130</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(255,124,87, 255), stop:1 rgba(255,154,87, 255));
+
+border-radius : 20; border : 2px solid black;</string>
+    </property>
+    <property name="text">
+     <string>peach</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>180</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(14, 150, 230, 255), stop:1 rgba(14, 93, 230, 255));
+
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>Berry</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>180</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(222, 27, 85, 255), stop:1 rgba(255, 27, 125, 255));
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>Pumo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>230</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(48, 243, 110, 255), stop:1 rgba(48, 243, 87, 255));
+
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>Kiwi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>230</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(173, 61, 111, 255), stop:1 rgba(210, 30, 205, 255));
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>Grabe</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>280</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(255, 255, 55, 255), stop:1 rgba(232, 225, 20, 200));
+
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>Lemon</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/home icon/Theme window/Home-icon.png);
+
+background: transparent</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>280</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.057, y1:0.943182, x2:0.857955, y2:0.125, stop:0 rgba(245, 244, 224, 255), stop:1 rgba(245, 244, 234, 255));
+
+border-radius : 20; border : 2px solid black</string>
+    </property>
+    <property name="text">
+     <string>soft</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+
+image: url(:/newPrefix/Home-icon.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolButton" name="BreakTool">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>140</y>
+     <width>70</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(66, 91, 255, 0);
+font: 18pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Break</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="HideTool">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>240</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(66, 91, 255, 0);
+font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Hide</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Play">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>180</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 25pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgba(66, 91, 255, 50);
+border-radius: 15;</string>
+   </property>
+   <property name="text">
+    <string>Play</string>
+   </property>
+  </widget>
+  <zorder>Background</zorder>
+  <zorder>SaveButton</zorder>
+  <zorder>Work</zorder>
+  <zorder>Clock</zorder>
+  <zorder>BreakTool</zorder>
+  <zorder>HideTool</zorder>
+  <zorder>Play</zorder>
+ </widget>
+ <resources>
+  <include location="../Theme window/Home-iconn.qrc"/>
+ </resources>
+ <connections/>
+</ui>

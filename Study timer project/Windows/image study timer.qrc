@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="thing">
+    <file>Break windows/Save_button_pic.png.png</file>
+  </qresource>
+</RCC>

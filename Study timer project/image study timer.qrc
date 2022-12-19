@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="home icon">
+    <file>Theme window/Applyicon.png</file>
+    <file>Theme window/Home-icon.png</file>
+  </qresource>
+</RCC>
